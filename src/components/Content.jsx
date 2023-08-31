@@ -5,7 +5,7 @@ import { Footer } from './Footer.jsx'
 
 import Axios from 'axios'
 
-import styles from '../styles/.module.css'
+import styles from '../styles/content.module.css'
 
 export function Content() {
   const [repositories, setRepositories] = useState([])
